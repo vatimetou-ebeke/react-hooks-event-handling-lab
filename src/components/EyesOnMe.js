@@ -2,9 +2,7 @@ import React ,{useState} from 'react';
 
 // Code EyesOnMe Component Here
 function EyesOnMe(){
-    const [isFocus,setFocus] =useState(true)
-    console.log({isFocus,setFocus})
-
+    
     function HandelFocus(){
         console.log('Good!')
         
